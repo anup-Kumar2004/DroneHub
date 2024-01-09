@@ -1,0 +1,14 @@
+.tile
+{
+    display: flexbox;
+    margin: 20% auto;
+    justify-content: center;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin: 0% auto;
+    margin-bottom: 5%;
+}

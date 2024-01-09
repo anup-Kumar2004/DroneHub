@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('AdobeStock_197502361-scaled.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 93%;
+    margin: auto;
+    padding: 32px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 190px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 18px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar ul li::after{
+    content: '';    
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    height: 95%;
+    align-items: center;
+    
+}
+
+.col{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    justify-content: center; /* Center content vertically */
+    padding-left: 8%; 
+
+    
+
+}
+
+h1{
+    color:#fff;
+    font-size: 75px;
+}
+
+p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+button{
+    width: 190px;
+    padding : 15px  1px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+   
+
+}
+
+
+
+
+.card{
+    width: 800px;
+    height: 450px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 25px ;
+    
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    
+}
+
+.card1 h5 {
+   padding: 8.5px 0;   
+   text-align: center;
+}
+
+.card2 h5 {
+    padding: 8.5px;   
+}
+
+.card3 h5 {
+    padding: 8.5px;   
+ }
+
+.card4 h5 {
+    padding: 8.5px;   
+} 
+ 
+
+.card1{
+    background-image: url(3507483.jpg);
+    
+}
+
+.card2{
+    background-image: url(underwater.png);
+}
+
+.card3{
+    background-image: url(normal\ fixed\ wings.jpg);
+}
+
+.card4{
+    background-image: url(fixed\ wings.png);
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}
+
+.card1 p {
+    color: #000; /* Change to a suitable text color */
+    background-color: rgba(255, 255, 255, 0.55); /* Semi-transparent white background */
+    padding: 2px 12px; /* Optional: Add padding for better readability */
+    position: relative; /* Set the position to relative */
+    left: 3px; /* Adjust left value to move text to the right */
+    top: 3px; 
+    
+}
+
+.card2 p {
+    color: #000; /* Change to a suitable text color */
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    padding: 4px; /* Optional: Add padding for better readability */
+}
+
+.card3 p {
+    color: #000; /* Change to a suitable text color */
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    padding: 5px; /* Optional: Add padding for better readability */
+}
+
+.card4 p {
+    color: #000; /* Change to a suitable text color */
+    background-color: rgba(255, 255, 255, 0.75); /* Semi-transparent white background */
+    padding: 4px; /* Optional: Add padding for better readability */
+}
+
+.navbar .logo {
+    opacity: 1; /* Change to a lower value for more transparency */
+}
+

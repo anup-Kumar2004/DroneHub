@@ -1,0 +1,904 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.banner1{
+    width: 100%;
+    height: 112vh;
+    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),url(bg_image.jpg);
+    background-size: cover;
+    position: center;
+    
+}
+
+
+.bg_image_heading {
+    position: absolute;
+    top: 19%; /* Adjust the top position as needed */
+    left: 52%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff; /* Text color for the heading */
+    font-size: 60px; /* Adjust the font size as needed */
+    font-family: "Montserrat", sans-serif;
+}
+
+.structure-heading {
+    position: absolute;
+    top: 80%; /* Adjust the top position as needed */
+    left: 17%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff; /* Text color for the sub-heading */
+    font-size: 65px; /* Adjust the font size as needed */
+    font-family: "Courier New", monospace;
+    font-weight: 300;
+}
+
+.green-heading {    
+    position: absolute;
+    top:88.95%; /* Adjust the top position as needed */
+    left: 51.35%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #00d084; /* Green text color for the new heading */
+    font-size: 55px; /* Adjust the font size as needed */
+    font-family:"Montserrat", sans-serif; /* Use a green font family */
+}
+
+.hardware-heading {
+    position: absolute;
+    top: 80%; /* Adjust the top position as needed */
+    left: 84%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff; /* Text color for the sub-heading */
+    font-size: 65px; /* Adjust the font size as needed */
+    font-family: "Courier New", monospace;
+    font-weight: 300;
+}
+
+
+.green-rectangle {
+    position: absolute;
+    background-color: #00d084; /* Green background color for the rectangle */
+    padding: 70px; /* Adjust the padding as needed */
+    width: 1170px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    left: 50.5%;
+    top: 147.3%; /* Adjust the top position as needed */
+    transform: translate(-50%, -50%);
+    
+}
+
+.green-p-heading{
+    color: #fff; /* Text color for "Hello Guys" */
+    font-size: 42px; /* Adjust the font size as needed */
+    font-family: "Abril Fatface" , serif ;
+
+}
+
+.green-rectangle img {
+    width: 45%; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-left: 680px; /* Move the image to the right */
+    margin-top: -301px;
+    
+}
+
+.white-rectangle {
+    position: absolute;
+    background-color: white; /* Green background color for the rectangle */
+    border-radius: 5px;
+    height: 10%; /* Adjust the height as needed */
+    width: 75%;
+    left: 50%;
+    top: 211%; /* Adjust the top position as needed */
+    transform: translate(-50%, -50%);
+}
+
+.purple_sc img {
+    width: 100%;
+    height: auto;  
+    margin-top: 270px;
+    
+}
+
+.purple2-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 34.35%;
+    margin-top: 114.5px;
+    background: linear-gradient(to right, #7b4cc8 45%, #374886 100%);  
+    left: 49.97%;
+    transform: translate(-50%, -50%);    
+}
+
+.grey-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    margin-top: 337px;
+    background: linear-gradient(to right, #dbdce4 45%, #f0f2fa 100%);  
+    
+    left: 49.97%;
+    transform: translate(-50%, -50%);    
+}
+
+
+
+.written_by-heading{
+    position: absolute;
+    top: 209.5%; /* Adjust the top position as needed */
+    left: 19%;
+    color: #3A3B41; /* Text color for the heading */
+    font-size: 17px; /* Adjust the font size as needed */
+    font-family: "Barlow Condensed" , sans-serif;
+    font-weight: 5;
+}
+
+.Anup-heading{
+    position: absolute;
+    top:209.74%; /* Adjust the top position as needed */
+    left: 24.35%;
+    color: #3A3B41; /* Text color for the heading */
+    font-size: 16px; /* Adjust the font size as needed */
+    font-family: "Barlow Condensed" , sans-serif;
+   
+}
+
+.anup-underline {
+    position: absolute;
+    width: 6.4%;
+    height: 0.17%;
+    margin-top: 113.1px;
+    background: linear-gradient(to right, #7b4cc8 45%, #374886 100%);  
+   
+    left: 27.5%;
+    transform: translate(-50%, -50%);    
+}
+
+
+.sian-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 2430%;
+    margin-top: 9040px;
+    background: linear-gradient(to bottom,         
+    #31dccf 0%,    
+    #00bcc0 25%,    
+    #00ccd3 50%,    
+    #75e9e5 75%,
+    #aaf2ef 100%  );
+    left: 49.97%;
+    transform: translate(-50%, -50%);    
+}
+
+.white2-rectangle {
+    position: absolute;
+    background-color: #fff; /* Green background color for the rectangle */
+    border-radius: 4px;
+    height: 53.5%; /* Adjust the height as needed */
+    width: 75%;
+    left: 50%;
+    top: 247%; /* Adjust the top position as needed */
+    transform: translate(-50%, -50%);
+}
+
+.guide-by-2 img {
+    width: 14%;
+    height: auto; 
+    margin-left: 41.4%;    
+}
+
+.drone-technology-heading{
+    position: absolute;
+    top: 8.5%; /* Adjust the top position as needed */
+    left: 12.5%;
+    color: #0d0a58; /* Text color for the heading */
+    font-size: 42px; /* Adjust the font size as needed */
+    font-family: "Montserrat" , sans-serif ;
+    text-decoration: solid;   
+}
+
+.p-heading{
+    position: absolute;
+    top: 57.2%; /* Adjust the top position as needed */
+    left: 8%;
+    color: #0d0a58; /* Text color for the heading */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-family: "Courier New" , monospace;
+      
+}
+
+.p1-heading{
+    position: absolute;
+    top: 68.8%; /* Adjust the top position as needed */
+    left: 12.4%;
+    color: #0d0a58; /* Text color for the heading */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-family: "Courier New" , monospace;
+    
+}
+
+
+#header-of-5{
+    width: 60%;
+    height: 40px; 
+    margin-top: 136px;
+    margin-left: 23%;
+
+}
+
+
+#header-of-2{
+    width: 60%;
+    height: 60px; 
+    margin-top: 0px;
+    margin-left: 29.6%;
+    
+   
+}
+
+#hardware-and-structure{
+    position: relative;
+    width: 75%;
+    height: 6120px;
+    margin-left: 12.5%;
+    font-family: "Barlow Condensed", sans-serif;
+    border: 2px solid white;
+}
+
+
+#hardware-and-structure .white-new-rectangle {
+    position: absolute;
+    background-color: white;
+    height: 100%; /* Set the height to 100% to cover the entire section */
+    width: 100%;
+    top: 0; /* Start from the top of the section */
+    left: 0;
+   
+}
+
+.container-1 {
+    width: 70%; /* Set the container width to 70% of the white-new-rectangle */
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 80px;
+    word-wrap: break-word;
+    border: 2px solid white;
+
+}
+
+.blue-image-underline {
+        position: absolute;
+        margin-top: 0px;
+        left: 45%;
+}
+
+
+
+.h1-1st {
+
+    
+    margin-top: 50px;
+    font-family: "Lora", serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.p1-1st {
+   
+    margin-top: 0px;
+    font-family: "Lora", serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.4;
+}
+
+.p-2nd {
+   
+    margin-top: 12px;
+    font-family: "Lora", serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.4;
+}
+
+.small-grey-rectangle { 
+    width: 100%;
+    height: 4.3%; 
+    border-radius: 4px;
+    background: #f0f2fa;  
+}
+
+.container-2 {
+    width: 88%; /* Set the container width to 70% of the white-new-rectangle */
+    margin: 100px auto; /* Center the container horizontally */
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+.container-3 {
+    width: 88%; /* Set the container width to 70% of the white-new-rectangle */
+    margin: 70px auto; /* Center the container horizontally */
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+.DDF-WIAD-HEADING{
+    color: #EB38A6;
+    font-family: "Verdana" , sans-serif;
+    font-size: 15px;
+    font-weight: bold;    
+}
+
+.p-for-DDF-WIAD-heading{
+   
+    left:7.1%;
+    margin-top: 3px;
+    font-family: "Montserrat" ,"Verdana", sans-serif ;
+    font-size: 15px;
+    color: #353535b8; ;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+
+.head2 {
+    margin-top: -40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: "Lora", serif;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+ul {
+    list-style-type:disc;
+    padding: 0;
+}
+
+
+.list1 {
+    margin-bottom: 10px;
+    
+    margin-left: 30px;
+}
+
+
+.list2 {
+    margin-bottom: 0px;
+   
+    margin-left: 30px;
+}
+
+
+.list-para {
+    font-size: 21px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+
+}
+
+.list-para-2 {
+    font-size: 21px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.head3 {
+    margin-top: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+}
+
+.head4 {
+    margin-top: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+}
+
+.list3 {
+    margin-bottom: 0px;
+   
+    margin-left: 30px;
+}
+
+.head5 {
+    margin-top: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+}
+
+.list4 {
+    margin-bottom: 0px;
+   
+    margin-left: 30px;
+}
+
+.criss-cross img {
+    width: 100%;
+    height: auto; 
+    margin-top: 30px;
+
+}
+
+.list3 li .iframe-container-0 {
+    width: 96%; /* Adjust the width as needed */
+    margin-top: -20px;
+    height: 100%;
+    margin-bottom: 50px;
+    margin-left: 0px;
+   
+}
+
+.nepo{
+    position: absolute;
+    left:37.5%;
+    margin-top: 60px;
+    font-size: 22px;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+#cameras{
+    position: relative;
+    font-family: "Barlow Condensed", sans-serif;
+    width: 75%;
+    height: 2140px;
+    margin-left: 12.5%; 
+    border: 2px solid white;
+    
+}
+
+#cameras .white-new-rectangle-for-cameras {
+    position: absolute;
+    background-color: white;
+    height: 100%; /* Set the height to 100% to cover the entire section */
+    width: 100%;
+    top: 0; /* Start from the top of the section */
+    left: 0;
+   
+}
+
+.container-for-cameras {
+    width: 70%; /* Set the container width to 70% of the white-new-rectangle */
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 105px;
+    word-wrap: break-word;
+    border: 2px solid white;
+
+}
+
+.blue-image-underline-for-cameras img{
+    position: absolute;
+    margin-top: 3.5px;
+    left: 46%;
+    width: 8%;
+}
+
+/* Apply styles directly to the iframe */
+iframe {
+    
+    width: 100%; /* Adjust the width as needed */
+    
+    border-radius: 8px; /* Add border-radius for rounded corners */
+  }
+  
+/* If you want to style the container of the iframe */
+.iframe-container {
+    width: 100%; /* Adjust the width as needed */
+    margin-top: -20px;
+    height: 100%;
+   
+}
+  
+.criss-cross-2 img {
+    width: 100%;
+    height: auto; 
+    margin-top: 65px;
+
+}
+
+.nepo1{
+    position: absolute;
+    left:45%;
+    margin-top: 85px;
+    font-size: 22px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sensors{
+    position: relative;
+    font-family: "Barlow Condensed", sans-serif;
+    width: 75%;
+    height: 2380px;
+    margin-left: 12.5%; 
+    border: 2px solid white;
+    
+}
+
+#sensors .white-new-rectangle-for-sensors {
+    position: absolute;
+    background-color: white;
+    height: 100%; /* Set the height to 100% to cover the entire section */
+    width: 100%;
+    top: 0; /* Start from the top of the section */
+    left: 0;
+   
+}
+
+.container-for-sensors {
+    width: 70%; /* Set the container width to 70% of the white-new-rectangle */
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 115px;
+    word-wrap: break-word;
+    border: 2px solid white;
+
+}
+
+.small-grey-rectangle-2 { 
+    width: 100%;
+    height: 4.3%; 
+    border-radius: 4px;
+    background: #f0f2fa;  
+
+}
+
+.container-4 {
+    width: 90%; /* Set the container width to 70% of the white-new-rectangle */
+    margin: 50px auto; /* Center the container horizontally */
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+.list4 li .small-grey-rectangle-2 {
+    margin-left: -15px; /* Adjust the margin-left value as per your preference */
+}
+
+.list4 li .iframe-container-2 {
+    width: 95%; /* Adjust the width as needed */
+    margin-top: -20px;
+    height: 100%;
+    margin-bottom: 50px;
+    margin-left: 0px;
+   
+}
+
+.criss-cross-3 img {
+    width: 100%;
+    height: auto; 
+    margin-top: 40px;
+
+}
+
+
+
+
+.nepo2{
+    position: absolute;
+    margin-top: 95px;
+   
+    left:45.1%;
+
+    
+
+}
+
+#communucation-and-controls{
+    position: relative;
+    font-family: "Barlow Condensed", sans-serif;
+    width: 75%;
+    height: 1480px;
+    margin-left: 12.5%; 
+    border: 2px solid white;   
+}
+
+#communucation-and-controls .white-new-rectangle-for-cc {
+    position: absolute;
+    background-color: white;
+    height: 100%; /* Set the height to 100% to cover the entire section */
+    width: 100%;
+    top: 0; /* Start from the top of the section */
+    left: 0;
+   
+}
+
+.container-for-cc {
+    width: 70%; /* Set the container width to 70% of the white-new-rectangle */
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 115px;
+    word-wrap: break-word;
+    border: 2px solid white;
+
+}
+
+
+.blue-image-underline-for-cc img{
+    position: absolute;
+    margin-top: 3.5px;
+    left: 44%;
+    width: 12%;
+}
+
+.criss-cross-4 img {
+    width: 100%;
+    height: auto; 
+    margin-top: 30px;
+
+}
+
+.nepo3{
+    position: absolute;
+    left:33.5%;
+    margin-top: 95px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#Aerodynamics-and-Flight-Control{
+    position: relative;
+    font-family: "Barlow Condensed", sans-serif;
+    width: 75%;
+    height: 2240px;
+    margin-left: 12.5%; 
+    border: 2px solid white;    
+}
+
+#Aerodynamics-and-Flight-Control .white-new-rectangle-for-aafc {
+    position: absolute;
+    background-color: white;
+    height: 100%; /* Set the height to 100% to cover the entire section */
+    width: 100%;
+    top: 0; /* Start from the top of the section */
+    left: 0;
+   
+}
+
+.container-for-aafc {
+    width: 70%; /* Set the container width to 70% of the white-new-rectangle */
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 115px;
+    word-wrap: break-word;
+    border: 2px solid white;
+
+}
+
+
+.blue-image-underline-for-aafc img{
+    position: absolute;
+    margin-top: -5px;
+    left: 43%;
+    width: 12.5%;
+}
+
+.container-9 {
+    width: 88%; /* Set the container width to 70% of the white-new-rectangle */
+    margin: 45px auto; /* Center the container horizontally */
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+    margin-top: 40px;
+    word-wrap: break-word;
+}
+
+
+
+
+.nepo4{
+    position: absolute;
+    left:31%;
+    margin-top: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#software-technology{
+    position: relative;
+    font-family: "Barlow Condensed", sans-serif;
+    width: 75%;
+    height: 1840px;
+    margin-left: 12.5%; 
+    border: 2px solid white; 
+}
+
+#software-technology .white-new-rectangle-for-st {
+    position: absolute;
+    background-color: white;
+    height: 100%; /* Set the height to 100% to cover the entire section */
+    width: 100%;
+    top: 0; /* Start from the top of the section */
+    left: 0;
+   
+}
+
+.container-for-st {
+    width: 70%; /* Set the container width to 70% of the white-new-rectangle */
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 115px;
+    word-wrap: break-word;
+    border: 2px solid white;
+
+}
+
+
+.blue-image-underline-for-st img{
+    position: absolute;
+    margin-top: -6px;
+    left: 43.3%;
+    width: 12.5%;
+}
+
+.nepo5{
+    position: absolute;
+    left:36.8%;
+    margin-top: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+nav1 a {
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff; /* Text color */
+    font-weight: lighter; /* Font weight (you can adjust as needed) */
+    font-size: 18px;
+    margin: 0 15px; /* Add some spacing between links */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+
+}
+
+/* Change link color on hover */
+nav1 a:hover {
+    color: white; /* Change to your desired hover color */
+    border-color: white; /* Change to the same hover color */
+    padding-bottom: 3px; /* Adjust to control the gap between text and underline */
+}
+
+
+
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 22px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;  
+    color: white;
+    
+}
+
+.logo{
+    width: 70%;
+    cursor: pointer;
+}
+
+.navbar .logo {
+    opacity: 1; /* Change to a lower value for more transparency */
+    margin-left: 30px;
+}
+
+.navbar ul.list1 li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 18px;
+    position: relative;
+}
+
+.navbar ul.list1 li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar ul.list1 li::after{
+    content: '';    
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul.list1 li:hover::after{
+    width: 100%;
+}
+

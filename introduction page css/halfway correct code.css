@@ -1,0 +1,1085 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.banner{
+    width: 100%;
+    height: 112vh;
+    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),url(Mountains-rock-cliff-trees-fog-morning_2880x1800.jpg);
+    background-size: cover;
+    position: center;
+    
+}
+
+
+.banner-heading {
+    position: absolute;
+    top: 44%; /* Adjust the top position as needed */
+    left: 25%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff; /* Text color for the heading */
+    font-size: 67px; /* Adjust the font size as needed */
+    font-family: "Montserrat", sans-serif;
+}
+
+.sub-heading {
+    position: absolute;
+    top: 55%; /* Adjust the top position as needed */
+    left: 17%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff; /* Text color for the sub-heading */
+    font-size: 61px; /* Adjust the font size as needed */
+    font-family: "Courier New", monospace;
+    font-weight: 300;
+}
+
+.green-heading {    
+    position: absolute;
+    top: 53.34%; /* Adjust the top position as needed */
+    left: 35%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #00d084; /* Green text color for the new heading */
+    font-size: 68px; /* Adjust the font size as needed */
+    font-family:"Montserrat", sans-serif; /* Use a green font family */
+}
+
+.green-rectangle {
+    position: absolute;
+    background-color: #00d084; /* Green background color for the rectangle */
+    padding: 70px; /* Adjust the padding as needed */
+    width: 1170px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    left: 50.5%;
+    top: 113%; /* Adjust the top position as needed */
+    transform: translate(-50%, -50%);
+    
+}
+
+.green-p-heading{
+    color: #fff; /* Text color for "Hello Guys" */
+    font-size: 42px; /* Adjust the font size as needed */
+    font-family: "Abril Fatface" , serif ;
+
+}
+
+.green-rectangle img {
+    width: 45%; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-left: 680px; /* Move the image to the right */
+    margin-top: -301px;
+    
+}
+
+
+
+.white-rectangle {
+    position: absolute;
+    background-color: #fff; /* Green background color for the rectangle */
+    border-radius: 5px;
+    height: 10%; /* Adjust the height as needed */
+    width: 75%;
+    left: 50%;
+    top: 179%; /* Adjust the top position as needed */
+    transform: translate(-50%, -50%);
+}
+
+
+
+.white2-rectangle {
+    position: absolute;
+    background-color: #fff; /* Green background color for the rectangle */
+    border-radius: 4px;
+    height: 53.5%; /* Adjust the height as needed */
+    width: 75%;
+    left: 50%;
+    top: 215.5%; /* Adjust the top position as needed */
+    transform: translate(-50%, -50%);
+}
+
+
+.purple2-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 37.35%;
+    margin-top: 125px;
+    background: linear-gradient(to right, #7b4cc8 45%, #374886 100%);  
+   
+    left: 49.97%;
+    transform: translate(-50%, -50%);    
+}
+
+
+
+.grey-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    margin-top: 350.51px;
+    background: linear-gradient(to right, #dbdce4 45%, #f0f2fa 100%);  
+    
+    left: 49.97%;
+    transform: translate(-50%, -50%);    
+}
+
+
+.created-by img {
+    width: 100%;
+    height: auto;  
+    margin-top: 150px;
+    
+}
+
+.created-by-2 img {
+    width: 100%;
+    height: auto;  
+    margin-top: -3.42px;
+    
+}
+
+
+.created-heading{
+    position: absolute;
+    top: 177.6%; /* Adjust the top position as needed */
+    left: 19%;
+    color: #3A3B41; /* Text color for the heading */
+    font-size: 17px; /* Adjust the font size as needed */
+    font-family: "Barlow Condensed" , sans-serif;
+    font-weight: 5;
+}
+
+.created2-heading{
+    position: absolute;
+    top: 177.8%; /* Adjust the top position as needed */
+    left: 24.35%;
+    color: #3A3B41; /* Text color for the heading */
+    font-size: 16px; /* Adjust the font size as needed */
+    font-family: "Barlow Condensed" , sans-serif;
+   
+}
+
+.chetan-underline {
+    position: absolute;
+    width: 7.6%;
+    height: 0.17%;
+    margin-top: 110.5px;
+    background: linear-gradient(to right, #7b4cc8 45%, #374886 100%);  
+   
+    left: 28.25%;
+    transform: translate(-50%, -50%);    
+}
+
+
+.sian-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 3000%;
+    margin-top: 10786px;
+    background: linear-gradient(to bottom,         
+    #31dccf 0%,    
+    #00bcc0 25%,    
+    #00ccd3 50%,    
+    #75e9e5 75%,
+    #aaf2ef 100%  );
+    left: 49.97%;
+    transform: translate(-50%, -50%);    
+}
+
+
+.guide-by-2 img {
+    width: 17%;
+    height: auto; 
+    margin-left: 42.4%;    
+}
+
+.drone-technology-heading{
+    position: absolute;
+    top: 193.2%; /* Adjust the top position as needed */
+    left: 24.85%;
+    color: #0d0a58; /* Text color for the heading */
+    font-size: 45px; /* Adjust the font size as needed */
+    font-family: "Montserrat" , sans-serif ;
+    text-decoration: solid;   
+}
+
+.p-heading{
+    position: absolute;
+    top: 222.2%; /* Adjust the top position as needed */
+    left: 18.7%;
+    color: #0d0a58; /* Text color for the heading */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-family: "Courier New" , monospace;
+      
+}
+
+.p1-heading{
+    position: absolute;
+    top: 228%; /* Adjust the top position as needed */
+    left: 33.5%;
+    color: #0d0a58; /* Text color for the heading */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-family: "Courier New" , monospace;
+    
+}
+
+
+#header{
+    width: 60%;
+    height: 60px; 
+    margin-top: 80px;
+    margin-left: 27%;
+}
+
+
+#drone-definition{
+    width: 100%;
+    height: 5800px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.nepo{
+    position: absolute;
+    left:43%;
+    margin-top: 95px;
+}
+
+.white3-rectangle {
+    position: absolute;
+    background-color: #fff; /* Green background color for the rectangle */
+    border-radius: 4px;
+    height: 708%; /* Adjust the height as needed */
+    width: 75%;
+    left: 50%;
+    top: 611.2%; /* Adjust the top position as needed */
+    transform: translate(-50%, -50%);
+}
+
+.DRONE-DEF_HEADING{
+    position: absolute;
+    left:40.7%;
+    margin-top: 55px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 24px;
+
+}
+
+.WIAD-HEADING{
+    position: absolute;
+    left:17%;
+    margin-top: 145px;
+    font-family: "Lora", serif;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.p-for-WIAD-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 185px;
+    font-family: "Lora", serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.4;
+}
+
+.small-grey-rectangle {
+    position: absolute;
+    width: 65.6%;
+    height: 4.3%;
+    margin-top: 450.51px;
+    border-radius: 4px;
+    background: #f0f2fa;
+    left: 50.2%;
+    transform: translate(-50%, -50%);    
+}
+
+.WIAD-HEADING{
+    position: absolute;
+    left:17%;
+    margin-top: 145px;
+    font-family: "Lora", serif;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.blue-image-underline{
+    position: absolute;
+    margin-top: 80px;
+    left: 45%;
+   
+}
+
+.DDF-WIAD-HEADING{
+    position: absolute;
+    left:7%;
+    color: #EB38A6;
+    margin-top: 29px;
+    font-family: "Verdana" , sans-serif;
+    font-size: 15px;
+    font-weight: bold;    
+}
+
+.p-for-DDF-WIAD-heading{
+    position: absolute;
+    left:7.1%;
+    margin-top: 53px;
+    font-family: "Montserrat" ,"Verdana", sans-serif ;
+    font-size: 15px;
+    color: #353535b8; ;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+.p2-for-WIAD-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 587px;
+    font-family: "Lora", serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.55;
+}
+
+.p3-for-WIAD-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 752px;
+    font-family: "Lora", serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.55;
+}
+
+.p4-for-WIAD-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 885px;
+    font-family: "Lora", serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.55;
+}
+
+.p5-for-WIAD-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 1230px;
+    font-family: "Lora", serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.55;
+}
+
+.HDDW-HEADING{
+    position: absolute;
+    left:17.19%;
+    color: #000;
+    margin-top: 1600px;
+    font-family: "Verdana" , sans-serif;
+    font-size: 33px;
+    font-weight: bold; 
+    font-family: "Lora", serif;
+}
+
+.p6-for-WIAD-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 1643px;
+    font-family: "Lora", serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.55;
+}
+
+.small2-grey-rectangle {
+    position: absolute;
+    width: 65.6%;
+    height: 3.6%;
+    margin-top: 2005px;
+    border-radius: 4px;
+    background: #f0f2fa;
+    left: 50.2%;
+    transform: translate(-50%, -50%);    
+}
+
+.WIDT-HEADING{
+    position: absolute;
+    left:7%;
+    color: #EB38A6;
+    margin-top: 29px;
+    font-family: "Verdana" , sans-serif;
+    font-size: 15px;
+    font-weight: bold;    
+}
+
+.p-for-WIDT-heading{
+    position: absolute;
+    left:7.1%;
+    margin-top: 53px;
+    font-family: "Montserrat" ,"Verdana", sans-serif ;
+    font-size: 15px;
+    color: #353535b8; ;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+.UAV-HEADING{
+    position: absolute;
+    left:17.35%;
+    color: #000;
+    margin-top: 2190px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;   
+}
+
+.p7-for-UAV-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 2225px;
+    font-family: "Lora", serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.small3-grey-rectangle {
+    position: absolute;
+    width: 65.6%;
+    height: 4.2%;
+    margin-top: 2533px;
+    border-radius: 4px;
+    background: #f0f2fa;
+    left: 50.2%;
+    transform: translate(-50%, -50%);    
+}
+
+.UAV-defination-HEADING{
+    position: absolute;
+    left:7%;
+    color: #EB38A6;
+    margin-top: 29px;
+    font-family: "Verdana" , sans-serif;
+    font-size: 16px;
+    font-weight: bold;    
+}
+
+.p-for-UAV-heading{
+    position: absolute;
+    left:7.1%;
+    margin-top: 53px;
+    font-family: "Montserrat" ,"Verdana", sans-serif ;
+    font-size: 15px;
+    color: #353535b8; ;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+
+.GCS-HEADING{
+    position: absolute;
+    left:17.35%;
+    color: #000;
+    margin-top: 2710px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24.2px;   
+}
+
+.p-for-GCS-heading{
+    position: absolute;
+    left:17.365%;
+    margin-top: 2746px;
+    font-family: "Lora", serif;
+    font-size: 23.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.payloads-heading{
+    position: absolute;
+    left:17.35%;
+    color: #000;
+    margin-top: 3040px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24.2px;   
+}
+.p-for-payloads-heading{
+    position: absolute;
+    left:17.33%;
+    margin-top: 3078.5px;
+    font-family: "Lora", serif;
+    font-size: 23.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.DL-heading{
+    position: absolute;
+    left:17.33%;
+    color: #000;
+    margin-top: 3447px;
+    font-family: "Lora", serif;
+    font-size: 26.5px;   
+}
+.p-for-DL-heading{
+    position: absolute;
+    left:17.33%;
+    margin-top: 3483px;
+    font-family: "Lora", serif;
+    font-size: 23.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+iframe {
+    position: absolute;
+    top: 84%;
+    left: 51.9%;
+    transform: translate(-50%, -50%);
+}
+
+.HDDf-heading{
+    position: absolute;
+    left:17.33%;
+    color: #000;
+    margin-top: 4330px;
+    font-family: "Lora", serif;
+    font-size: 33px;   
+}
+.p-for-HDDf-heading{
+    position: absolute;
+    left:17.33%;
+    margin-top: 4370px;
+    font-family: "Lora", serif;
+    font-size: 23.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.VTOL-heading{
+    position: absolute;
+    left:17.33%;
+    color: #000;
+    margin-top: 4640px;
+    font-family: "Lora", serif;
+    font-size: 26.5px;     
+}
+.p-for-VTOL-heading{
+    position: absolute;
+    left:17.48%;
+    margin-top: 4668px;
+    font-family: "Lora", serif;
+    font-size: 23.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+
+.white4-rectangle {
+    position: absolute;
+    background-color: #fff; /* Green background color for the rectangle */
+    border-radius: 4px;
+    height: 135%; /* Adjust the height as needed */
+    width: 75%;
+    left: 50%;
+    top: 1029%; /* Adjust the top position as needed */
+    transform: translate(-50%, -50%);
+}
+
+.GNSS-heading{
+    position: absolute;
+    left:17.35%;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 26.5px;     
+}
+.p1-for-GNSS-heading{
+    position: absolute;
+    left:17.48%;
+    margin-top: 32px;
+    font-family: "Lora", serif;
+    font-size: 23.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.p2-for-GNSS-heading{
+    position: absolute;
+    left:17.48%;
+    margin-top: 158px;
+    font-family: "Lora", serif;
+    font-size: 23.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+
+.GID-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 520px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 26.5px;     
+}
+.p-for-GID-heading{
+    position: absolute;
+    left:17.48%;
+    margin-top: 552px;
+    font-family: "Lora", serif;
+    font-size: 23.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.criss-cross img {
+    width: 100%;
+    height: auto; 
+    margin-top: 740px;
+
+}
+
+
+
+
+
+
+
+
+
+
+#types-of-drones{
+    width: 100%;
+    height: 3950px;
+    border: 1px solid black;
+}
+
+.nepo1{
+    position: absolute;
+    left:43.7%;
+    margin-top: 95px;
+    
+}
+
+.white5-rectangle {
+    position: absolute;
+    background-color: #fff; /* Green background color for the rectangle */
+    border-radius: 4px;
+    height: 580%; /* Adjust the height as needed */
+    width: 75%;
+    left: 50%;
+    top: 1386.3%; /* Adjust the top position as needed */
+    transform: translate(-50%, -50%);
+}
+
+
+.TOD-DEF_HEADING{
+    position: absolute;
+    left:40.2%;
+    margin-top: 65px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 24px;
+}
+
+.TOD-def-portion img{
+    position: absolute;
+    margin-top: 90px;
+    left: 45%;
+    width: 10%;
+}
+
+.TOD-F-D-heading{
+    position: absolute;
+    left:17.32%;
+    margin-top: 150px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 34px;     
+}
+
+.p-for-TOD-F-D-heading{
+    position: absolute;
+    left:17.48%;
+    margin-top: 190px;
+    font-family: "Lora", serif;
+    font-size: 23.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.small4-grey-rectangle {
+    position: absolute;
+    width: 65.6%;
+    height: 4.8%;
+    margin-top: 515px;
+    border-radius: 5px;
+    background: #f0f2fa;
+    left: 50.2%;
+    transform: translate(-50%, -50%);    
+}
+
+.FOUR-CTOD{
+    position: absolute;
+    left:7%;
+    color: #EB38A6;
+    margin-top: 29px;
+    font-family: "Verdana" , sans-serif;
+    font-size: 16px;
+    font-weight: bold;    
+}
+
+ul.list2 {
+    position: absolute;
+    left:11.8%;
+    margin-top: 53px;
+    font-family: "Montserrat" ,"Verdana", sans-serif ;
+    font-size: 16.3px;
+    color: #353535b8; ;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+.SRHD-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 660px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 26.5px;     
+}
+.p-for-SRHD-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 692px;
+    font-family: "Lora", serif;
+    font-size: 23.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.ADVANTAGES-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 905px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 22.7px;     
+}
+.p-for-ADVANTAGES-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 934px;
+    font-family: "Lora", serif;
+    font-size: 22.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.DISADVANTAGES-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 1145px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 22.7px;     
+}
+.p-for-DISADVANTAGES-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 1173px;
+    font-family: "Lora", serif;
+    font-size: 22.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.MRD-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 1440px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 26.5px;     
+}
+.p-for-MRD-heading{
+    position: absolute;
+    left:17.36%;
+    margin-top: 1474px;
+    font-family: "Lora", serif;
+    font-size: 23.5px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.ADVANTAGES1-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 1645px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 22.7px;     
+}
+.p-for-ADVANTAGES1-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 1672px;
+    font-family: "Lora", serif;
+    font-size: 22.9px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.DISADVANTAGES1-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 1846px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 22.7px;     
+}
+.p-for-DISADVANTAGES1-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 1874px;
+    font-family: "Lora", serif;
+    font-size: 22.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+
+
+
+.FWD-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 2150px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 26.5px;     
+}
+.p-for-FWD-heading{
+    position: absolute;
+    left:17.36%;
+    margin-top: 2184px;
+    font-family: "Lora", serif;
+    font-size: 23.5px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.ADVANTAGES2-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 2500px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 22.7px;     
+}
+.p-for-ADVANTAGES2-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 2529px;
+    font-family: "Lora", serif;
+    font-size: 22.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.DISADVANTAGES2-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 2665px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 22.7px;     
+}
+.p-for-DISADVANTAGES2-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 2693px;
+    font-family: "Lora", serif;
+    font-size: 22.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.FWHD-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 2950px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 26.5px;     
+}
+.p-for-FWHD-heading{
+    position: absolute;
+    left:17.36%;
+    margin-top: 2986px;
+    font-family: "Lora", serif;
+    font-size: 23.5px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.ADVANTAGES3-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 3279px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 22.7px;     
+}
+.p-for-ADVANTAGES3-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 3309px;
+    font-family: "Lora", serif;
+    font-size: 22.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.DISADVANTAGES3-heading{
+    position: absolute;
+    left:17.35%;
+    margin-top: 3444px;
+    color: #000;
+    font-family: "Lora", serif;
+    font-size: 22.7px;     
+}
+.p-for-DISADVANTAGES3-heading{
+    position: absolute;
+    left:17.3%;
+    margin-top: 3478px;
+    font-family: "Lora", serif;
+    font-size: 22.7px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.criss-cross2 img {
+    width: 100%;
+    height: auto; 
+    margin-top: 3760px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#what-are-drones-used-for{
+    width: 100%;
+    height: 3000px;
+    border: 1px solid black;
+}
+
+.nepo2{
+    position: absolute;
+    left:38.5%;
+    margin-top: 95px;
+}
+
+nav1 a {
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff; /* Text color */
+    font-weight: lighter; /* Font weight (you can adjust as needed) */
+    font-size: 18px;
+    margin: 0 15px; /* Add some spacing between links */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+
+}
+
+/* Change link color on hover */
+nav1 a:hover {
+    color: white; /* Change to your desired hover color */
+    border-color: white; /* Change to the same hover color */
+    padding-bottom: 3px; /* Adjust to control the gap between text and underline */
+}
+
+
+
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 22px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999; 
+    background-color: black;  
+    color: white;
+    
+}
+
+.logo{
+    width: 70%;
+    cursor: pointer;
+}
+
+.navbar .logo {
+    opacity: 1; /* Change to a lower value for more transparency */
+    margin-left: 30px;
+}
+
+.navbar ul.list1 li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 18px;
+    position: relative;
+}
+
+.navbar ul.list1 li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar ul.list1 li::after{
+    content: '';    
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul.list1 li:hover::after{
+    width: 100%;
+}
+
+
+.new-heading {
+    position: absolute;
+    top: 140%; /* Adjust the top position as needed */
+    left: 15%;
+}
+

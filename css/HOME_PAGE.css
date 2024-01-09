@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('../gourav_new_folder/drone_image.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1%;
+}
+
+.navbar{
+    width: 93%;
+    margin: auto;
+    padding: 32px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 190px;
+    cursor: pointer;
+}
+
+.logoooo{
+    margin-top: 150px;
+    width: 390px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    
+}
+
+.hello112{
+    margin-top: 150px;
+    width: 390px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+
+.hello1122{
+    margin-top: 150px;
+    width: 390px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 18px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar ul li::after{
+    content: '';    
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    height: 95%;
+    align-items: center;
+    
+}
+
+.col{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    justify-content: center; /* Center content vertically */
+    padding-left: 8%; 
+
+    
+
+}
+
+h1{
+    color:#fff;
+    font-size: 5.2rem;
+    margin-top: 260px;
+}
+
+p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+button{
+    width: 190px;
+    padding : 15px  1px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+   
+
+}
+
+
+
+
+.card{
+    width: 17rem;
+    height: 17rem;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 2rem 2rem ;
+    
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    
+}
+
+
+.card-123{
+    width: 17rem;
+    height: 17rem;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 40px 450px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 2rem 2rem ;
+    
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0% 5%;
+}
+
+.card-container-11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4% 10% 0% 17%;
+}
+
+.card1 h5 {
+   padding: 8.5px 0;   
+   text-align: center;
+   color: black;
+}
+
+.card2 h5 {
+    padding: 8.5px; 
+    color: black;  
+}
+
+.card3 h5 {
+    padding: 8.5px;   
+    color: black;
+ }
+
+.card4 h5 {
+    padding: 8.5px;   
+    color: black;
+} 
+ 
+
+.card1{
+    background-image: url('../gourav_new_folder/rotary-blade-uav-drones-1614055513.jpeg');
+}
+
+.card2{
+    background-image: url('../gourav_new_folder/underwater.png');
+}
+
+.card3{
+    background-image: url('../gourav_new_folder/normal_fixed_wings.jpg');
+}
+
+.card4{
+    background-image: url('../gourav_new_folder/fixed_wings.png');
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}
+
+.card1 p {
+    color: #000; /* Change to a suitable text color */
+    background-color: rgba(255, 255, 255, 0.55); /* Semi-transparent white background */
+    padding: 2px 12px; /* Optional: Add padding for better readability */
+    position: relative; /* Set the position to relative */
+    left: 3px; /* Adjust left value to move text to the right */
+    top: 3px; 
+    
+}
+
+.card2 p {
+    color: #000; /* Change to a suitable text color */
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    padding: 4px; /* Optional: Add padding for better readability */
+}
+
+.card3 p {
+    color: #000; /* Change to a suitable text color */
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    padding: 5px; /* Optional: Add padding for better readability */
+}
+
+.card4 p {
+    color: #000; /* Change to a suitable text color */
+    background-color: rgba(255, 255, 255, 0.75); /* Semi-transparent white background */
+    padding: 4px; /* Optional: Add padding for better readability */
+}
+
+
+.bgcard1{
+    background-image: url('../images/black bg 1.jpg');
+}
+
+.bgcard2{
+    background-image: url('../images/black-and-white-photo-of-drone-20507183rr3.jpg');
+}
+
+.bgcard3{
+    background-image: url('../images/black bg 2.jpg');
+}
+
+
+
+
+
+
+.navbar .logo {
+    opacity: 1; /* Change to a lower value for more transparency */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin: 10% auto;
+    margin-bottom: 0%;
+}
+
+div
+{
+    margin-bottom: 10%;
+  
+    
+}
+
+div h2
+{
+    color: white;;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.footer {
+    background-color:black; /* Dark blue background color */
+    color: #fff; /* Text color */
+    margin-left: 5px;
+    margin-top: -135px;
+    text-align: center;
+}
+
+.footer-section {
+    width: 450px;
+    
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin-left: 232px;
+    margin-bottom: 8px;
+    margin-top: -242px;
+}
+
+.iconse {
+    width: 60px; /* Adjust the width as needed */
+    height: 45px; /* Set a fixed height */
+    margin: 0 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.iconse img {
+    width: 100%; /* Make sure the image takes up the full width of the container */
+    height: 100%; /* Make sure the image takes up the full height of the container */
+    object-fit: contain; /* Maintain the aspect ratio of the image */
+}
+
+.iconse:hover {
+    transform: translateY(-5px); /* Move icon upwards on hover */
+    cursor: pointer;
+}
+
+a.mail-link {
+    color: #009688; /* Set your desired color */
+    text-decoration: none; /* Remove underline */
+    
+}
+
+.cu{
+    margin-left: -140px;
+}
+
+.mail-para{
+    margin-left: -118px;
+}
+
+/* Hover effect for the email link */
+a.mail-link:hover {
+    text-decoration: underline; /* Add underline on hover if desired */
+    color: orange;
+}
+
+.wt {
+    margin-top: 200px;
+    margin-left: 105px;
+    font-size: 52px;
+}
+
+.anytime {
+    margin-top: 200px;
+    margin-left: -800px;
+    font-size: 50px;
+    margin-bottom: -300px;
+}
+
+.applica{
+    margin-top: -50px;
+    margin-left: 800px;
+    font-size: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.tutori {
+    margin-top: -30px;
+    margin-left: -1000px;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.last{
+    margin-left: -50px;
+    font-size: 20px;
+}
+
+.phone{
+    margin-left: -215px;
+}
+
+.phone span {
+    color: #009688;
+}
+
+.copyright {
+    margin-left: -40px;
+    margin-top: 2px; 
+    margin-bottom: 5px;
+    
+}

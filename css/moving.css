@@ -1,0 +1,9 @@
+.container-moving {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.scrolling-text {
+    position: absolute;
+    bottom: 0;
+}

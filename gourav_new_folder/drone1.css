@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+.navbar{
+    height:70px;
+    background-color: black ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.nav-logo-first{
+    font-size: 2.5rem;;
+    font-family: monospace ;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/** box2 **/
+.Tutorials-first{
+    font-size: 1rem;
+}
+
+
+.types-first{
+    font-size: 1rem;
+}
+
+.regulation-first{
+    font-size: 1rem;
+}
+
+.safety-first{
+    font-size: 1rem;
+}
+
+.photography-first{
+    font-size: 1rem;
+}
